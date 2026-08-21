@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sync-server": "y-websocket-server --port 1234"
+    "sync-server": "node server.js"
   },
   "dependencies": {
     "@codemirror/lang-javascript": "^6.2.2",
